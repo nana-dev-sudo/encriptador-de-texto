@@ -36,6 +36,8 @@ const encriptarTexto = () => {
 
   if (texto === "") {
     inputErrorP.innerText = "El mensaje no puede estar vacío.";
+    areaVisualizacion.classList.remove("invisible");
+    areaMensajeProcesado.classList.add("invisible");
     mostrarError();
   }
 
@@ -95,6 +97,8 @@ const desencriptarTexto = () => {
 
   if (texto === "") {
    inputErrorP.innerText = "El mensaje no puede estar vacío."
+   areaVisualizacion.classList.remove("invisible");
+   areaMensajeProcesado.classList.add("invisible");
    mostrarError();
     return;
   }
