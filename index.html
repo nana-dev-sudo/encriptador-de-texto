@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/logo-alura_bg.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <header class="header">
+        <img src="./assets/alura-logo.png" alt="logo sin fondo de Alura Latam">
+    </header>
+
+    <main class="main">
+        <div class="contenedor">
+            <form class="encriptador-form">
+                    <textarea class="encriptador-form__textarea" name="entrada_de_texto" id="texto"
+                        placeholder="Ingrese el texto aquí..." required></textarea>
+                    <div class="encriptador-form__info">
+                        <ion-icon class="encriptador-form__info-icon input-error__icon" name="alert-circle"></ion-icon>
+                        <p class="encriptador-form__info-p input-error__p">Solo letras minúsculas y sin acentos.</p>
+                    </div>
+                    <div class="encriptador-form__botones">
+                        <input id="encriptar" type="button" value="Encriptar">
+                        <input id="desencriptar" type="button" value="Desencriptar">
+                    </div>
+            </form>
+        </div>
+
+        <div class="mostrar-texto">
+            <div class="mostrar-texto__contenido">
+                <div class="mostrar-texto__contenido--principal">
+                    <img src="./assets/alura-muñeco.png" alt="Imagen animada de una persona con una lupa">
+                    <h3 class="mostrar-texto__contenido--subtitulo">Ningún mensaje fue encontrado</h3>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <div class="mostrar-texto__contenido--procesado invisible">
+                    <textarea name="texto_procesado" id="texto_procesado" disabled></textarea>
+                    <button id="copiar-contenido">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; Desarrollado por Villarroel Giuliana | Diseñado por Alura Latam + ONE</p>
+        <div class="footer__link">
+            <a href="https://github.com/nana-dev-sudo" target="_blank"><ion-icon class="footer__link--iconos" name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/giulianavillarroel" target="_blank"><ion-icon class="footer__link--iconos" name="logo-linkedin"></ion-icon></a>
+        </div>
+    </footer>
+
+    <!-- zona de scripts -->
+    <script src="./app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
