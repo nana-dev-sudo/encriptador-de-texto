@@ -1,6 +1,6 @@
 # ONE Encriptador de texto!
 
-![ONE_encriptador-de-texto](https://github.com/nana-dev-sudo/encriptador-de-texto/assets/172645884/66d32cb1-b3ce-453b-86e9-b44bf9befc11)
+![ONE_encriptador-de-texto](https://github.com/nana-dev-sudo/encriptador-de-texto/assets/172645884/29b753a7-29f0-4ea8-b17f-8bd82275aed2)
 
 
 _El reto consiste en crear una página web que cifre y descifre el texto que será ingresado por el usuario y mostrarlo en su forma cifrada o descifrada. El objetivo de este reto es evaluar los conocimientos adquiridos durante el curso "Principiante en programación"._
